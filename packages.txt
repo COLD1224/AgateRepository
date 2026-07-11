@@ -1,0 +1,3 @@
+fs|FastStart|downloads/fsinstaller.sh
+dtz|DevToolz|downloads/dtz.sh
+
