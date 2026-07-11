@@ -1,1 +1,21 @@
-dummytext
+body {
+    font-family: sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+body {
+    background: #111827;
+    color: #e5e7eb;
+}
+
+h1 {
+    color: #60a5fa;
+}
+
+button, a {
+    color: #93c5fd;
+}
