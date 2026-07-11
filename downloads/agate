@@ -1,0 +1,19 @@
+#!/bin/bash
+
+REPO="https://raw.githubusercontent.com/COLD1224/AgateRepository/main"
+
+case "$1" in
+    help)
+        echo "Agate Package Manager"
+        ;;
+    inst)
+        # install package
+        ;;
+    rm)
+        # remove package
+        ;;
+    *)
+        echo "Unknown command."
+        ;;
+esac
+
