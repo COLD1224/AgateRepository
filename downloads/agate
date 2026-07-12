@@ -1,10 +1,16 @@
 #!/bin/bash
 
-REPO="https://raw.githubusercontent.com/COLD1224/AgateRepository/main"
+REPO="https://raw.githubusercontent.com/COLD1224/AgateRepository/main/downloads"
 
 case "$1" in
     help)
         echo "Agate Package Manager"
+
+        echo "commands:"
+        echo "inst (installs package)"
+        echo "rm (removes package)"
+        echo "help (shows commands again"
+echo "made AGLT (Azure Gemstone Linux Tools)"
         ;;
     inst)
         # install package
@@ -13,7 +19,7 @@ case "$1" in
         # remove package
         ;;
     *)
-        echo "Unknown command."
+        echo "Unknown command. check 'agate help' maybe you misspelled it."
         ;;
 esac
 
