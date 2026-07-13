@@ -1,3 +1,4 @@
-fs|FastStart|downloads/fsinstaller.sh
-dtz|DevToolz|downloads/dtz.sh
+fs|FastStart|fs.sh
+dtz|DevToolz|dtz.sh
+al|azureland|azureland.sh
 
