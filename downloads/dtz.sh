@@ -1,9 +1,10 @@
 #!/bin/bash
 
-echo "installing devtoolz 1.0"
+echo "what to name your file?"
 
-mkdir -p ~/.local/bin/
-cp "$0" ~/.local/bin/DevToolz
-chmod +x  ~/.local/bin/DevToolz
+read pkgname
+touch "$pkgname.sh"
+echo '#!/bin/bash' > "$pkgname.sh"
+chmod +x $pkgname.sh
 
-echo "devtoolz installed, run DevToolz
+yad --entry --title="New Package" --text="Package name:"
