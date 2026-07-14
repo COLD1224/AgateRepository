@@ -1,4 +1,4 @@
-fs|FastStart|fs.sh
-dtz|DevToolz|dtz.sh
+fs|FastStart|faststart.sh
+dtz|DevToolz|devtoolz.sh
 al|azureland|azureland.sh
 
